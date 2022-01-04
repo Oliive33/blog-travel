@@ -76,6 +76,33 @@ img {
   line-height: 1.3;
   margin-bottom: var(--margin-bottom-md);
 }
+/* --------------------Scroll up-------------------- */
+.scrollup {
+  position: fixed;
+  right: 1rem;
+  bottom: -20%;
+  display: flex;
+  text-decoration: none;
+  background: var(--clr-accent);
+  border-radius: 100px;
+  padding: 1.15rem;
+  opacity: 9;
+  z-index: 1011;
+  transition: 0.4s;
+}
+.scrollup:hover {
+  background: var(--clr-dark);
+  opacity: 1;
+}
+
+.scrollup .fa-chevron-up {
+  color: whitesmoke;
+  font-size: 1.35rem;
+}
+/* Show Scroll Up*/
+.show-scroll {
+  bottom: 64px;
+}
 /* header */
 .header {
   position: absolute;
@@ -492,8 +519,8 @@ img {
     margin-top: 3.2rem;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 375px) {
   .main-title {
-    font-size: 32px;
+    font-size: 35px;
   }
 }

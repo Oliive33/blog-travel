@@ -31,3 +31,10 @@ window.addEventListener("scroll", () => {
   heroData.style.transform = "translateY(" + scrollPosition * 0.03 + "%)";
   heroData.style.opacity = 1 - scrollPosition * 0.002;
 });
+/*=============== SHOW SCROLL UP ===============*/
+function scrollUp() {
+  const scrollUp = document.getElementById("scroll-up");
+  if (this.scrollY >= 300) scrollUp.classList.add("show-scroll");
+  else scrollUp.classList.remove("show-scroll");
+}
+window.addEventListener("scroll", scrollUp);
