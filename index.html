@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MNTN | Landing Page</title>
+    <!-- Import Favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.png"
+      type="image/x-icon"
+    />
+    <!-- Import Remix Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- Import CSS file -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="./index.html" class="logo-box">
+          <img
+            src="./assets/images/logo.png"
+            alt="MNTN logo"
+            class="logo-image"
+          />
+        </a>
+        <div class="menu" id="mobile-menu">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#equipement" class="nav-link">Equipement</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Nous Contacter</a>
+            </li>
+            <li class="nav-item">
+              <a href="#blog" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item lg-screen-hidden">
+              <a href="#" class="nav-link">Compte</a>
+            </li>
+          </ul>
+          <div
+            class="menu-toggle-icon menu-toggle-close"
+            id="menu-toggle-close"
+          >
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <a
+          href="#"
+          class="nav-link account-link place-items-center sm-screen-hidden"
+        >
+          <i class="ri-account-circle-line"></i> Compte
+        </a>
+        <div class="menu-toggle-icon menu-toggle-open" id="menu-toggle-open">
+          <i class="ri-menu-4-fill"></i>
+        </div>
+      </nav>
+    </header>
+    <!-- Main -->
+    <main class="main">
+      <section class="hero">
+        <div class="hero-container container d-grid">
+          <div class="hero-data" id="hero-data">
+            <span class="tagline">Guide de Randonnée</span>
+            <h1 class="title main-title">
+              Prêt pour déplacer les montagnes et au-delà...
+            </h1>
+            <a href="#hik-information" class="btn btn-scroll-down">
+              Voir plus-bas <i class="ri-arrow-down-line"> </i>
+            </a>
+          </div>
+        </div>
+        <img
+          src="./assets/images/hero-top.png"
+          alt=""
+          class="parallax-img parallax-top-img"
+          id="sky"
+        />
+        <img
+          src="./assets/images/hero-middle.png"
+          alt=""
+          class="parallax-img parallax-middle-img"
+          id="mountains"
+        />
+        <img
+          src="./assets/images/hero-bottom.png"
+          alt=""
+          class="parallax-img parallax-bottom-img"
+          id="grassland"
+        />
+      </section>
+      <!-- Hero -->
+
+      <!-- Hiking-information -->
+      <section class="hiking-information section" id="hik-information">
+        <div class="card-container container">
+          <div class="card d-grid">
+            <img
+              src="./assets/images/01.png"
+              alt="image"
+              class="card-image frame-position-center"
+            />
+            <div class="card-info">
+              <span class="count">01</span>
+              <span class="tagline">Découvrir</span>
+              <h2 class="title card-title">
+                Quel est votre niveau de randonneur?
+              </h2>
+              <p class="card-description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero
+                voluptas id dolore molestiae doloremque. Illo, esse. Illum
+                veniam in dolore enim temporibus non modi eveniet repellat
+                perferendis quisquam quaerat, minima beatae eos optio debitis
+                veniam in dolore enim temporibus non modi eveniet repellat
+                perferendis quisquam quaerat, minima beatae eos optio debitis
+              </p>
+              <a href="#" class="btn btn-accent"
+                >Voir plus <i class="ri-arrow-right-line"></i
+              ></a>
+            </div>
+          </div>
+          <div class="card d-grid" id="blog">
+            <img
+              src="./assets/images/02.png"
+              alt="image"
+              class="card-image frame-position-center order-first"
+            />
+            <div class="card-info">
+              <span class="count">02</span>
+              <span class="tagline">Apprendre</span>
+              <h2 class="title card-title">Quel est votre niveau de survie?</h2>
+              <p class="card-description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero
+                voluptas id dolore molestiae doloremque. Illo, esse. Illum
+                veniam in dolore enim temporibus non modi eveniet repellat
+                perferendis quisquam quaerat, minima beatae eos optio debitis
+                veniam in dolore enim temporibus non modi eveniet repellat
+                perferendis quisquam quaerat, minima beatae eos optio debitis
+              </p>
+              <a href="#" class="btn btn-accent"
+                >Voir plus <i class="ri-arrow-right-line"></i
+              ></a>
+            </div>
+          </div>
+          <div class="card d-grid" id="equipement">
+            <img
+              src="./assets/images/03.png"
+              alt="image"
+              class="card-image frame-position-center"
+            />
+            <div class="card-info">
+              <span class="count">03</span>
+              <span class="tagline">Evasion</span>
+              <h2 class="title card-title">
+                Comment bien choisir sa direction ?
+              </h2>
+              <p class="card-description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero
+                voluptas id dolore molestiae doloremque. Illo, esse. Illum
+                veniam in dolore enim temporibus non modi eveniet repellat
+                perferendis quisquam quaerat, minima beatae eos optio debitis
+                veniam in dolore enim temporibus non modi eveniet repellat
+                perferendis quisquam quaerat, minima beatae eos optio debitis
+              </p>
+              <a href="#" class="btn btn-accent"
+                >Voir plus <i class="ri-arrow-right-line"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container container d-grid">
+        <div class="brand-information">
+          <a href="./index.html" class="logo-box">
+            <img
+              src="./assets/images/logo.png"
+              alt="main logo"
+              class="logo-image"
+            />
+          </a>
+          <p class="footer-blurb">
+            Venez découvrir vos prochaines destinations à sensation!
+          </p>
+          <span class="copyright"
+            >&copy; Oliive33 Site factice Tout droits réservés</span
+          >
+        </div>
+        <div class="footer-nav d-grid">
+          <div class="footer-nav-group">
+            <h6 class="footer-nav-title">Voir plus sur le site</h6>
+            <a href="#" class="footer-nav-link nav-link">Conseils</a>
+            <a href="#" class="footer-nav-link nav-link">Matériel</a>
+            <a href="#" class="footer-nav-link nav-link">Destinations</a>
+            <a href="#" id="contact" class="footer-nav-link nav-link"
+              >Nous Contacter</a
+            >
+            <a href="#" class="footer-nav-link nav-link">Assistance</a>
+          </div>
+          <div class="footer-nav-group">
+            <h6 class="footer-nav-title">Voir plus sur homemade web</h6>
+            <a
+              href="https://www.homemade-web.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer-nav-link nav-link"
+              >Portfolio</a
+            >
+            <a
+              href="https://community.homemade-web.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer-nav-link nav-link"
+              >Community</a
+            >
+            <a
+              href="mailto:olive@homemade-web.com"
+              class="footer-nav-link nav-link"
+              >Email</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
